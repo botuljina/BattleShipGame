@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>battleship-game</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <h1 class ="header" id="txtHeader">NA POTEZU JE IGRAC </h1>
+  <h2 class ="headerName" id="playerName"></h2>
+</head>
+
+<body class="bg" onload ="createTables(1,2)">
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6" align="center">
+        <table id="tableOne"></table>
+      </div>
+      <div class="col-lg-6" align="center">
+        <table id="tableTwo"></table>
+        
+      </div>
+      
+  </div>
+  <br><br><br>
+  <div class="text-center">
+    <button type="button" class="btn btn-success" onclick="startMove()">Zapocni potez</button>
+    <br><br><br>
+    <img src="battleship-assets/game.png" class="game"/>
+  </div>
+  
+  <footer class="page-footer font-small black">
+
+    
+    <div class="footer-copyright text-center py-3">
+      <a> sl170423d</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+ 
+</div>
+</body>
+<script src="battlewarship-javascript.js"></script>     
+</html>

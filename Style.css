@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+.game{
+  width: 15%;
+  height: 15%;
+}
+
+.header {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 175%;
+    color: #fff;
+    text-shadow: 0 2px 2px #000;
+  }
+  .headerName {
+    text-align: center;
+    font-size: 250%;
+    color:goldenrod;
+    text-shadow: 0 4px 4px #000;
+  }
+
+.bg{    
+    background-image: url("battleship-assets/background.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow:inset 0 0 0 2000px rgba(56, 56, 56, 0.116);
+     }
+  
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+body {
+  background: linear-gradient(35deg, #64B6AC, #3C6B7C 100%);
+  height: 100%;
+  background-repeat: repeat;
+  background-position: center;
+  font: 87.5%/1.5em 'Open Sans', sans-serif;
+}
+
+input {
+  border: none;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  padding: 0;
+  -webkit-appearance: none;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+after { clear: both; }
+
+#login {
+    position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  margin: 50px auto;
+  width: 320px;
+}
+
+#login form {
+  margin: auto;
+  padding: 22px 22px 22px 22px;
+  width: 100%;
+  border-radius: 5px;
+  background: #282e33;
+  border-top: 3px solid #434a52;
+  border-bottom: 3px solid #434a52;
+}
+
+#login form span {
+  background-color: #363b41;
+  border-radius: 3px 0px 0px 3px;
+  border-right: 3px solid #434a52;
+  color: #606468;
+  display: block;
+  float: left;
+  line-height: 50px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+}
+
+#login form input[type="text"] {
+  background-color: #3b4148;
+  border-radius: 0px 3px 3px 0px;
+  color: #a9a9a9;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 265px;
+  height: 50px;
+}
+
+
+#login form input[type="submit"] {
+  background: #b5cd60;
+  border: 0;
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+#login form input[type="submit"]:hover {
+  background: #16aa56;
+}
+
+
+/* GALERIJA ZA RASPORED BRODOVA I ODABIR VELICINE */
+
+  .gallery {
+    width: 1000;
+    margin: 5 auto;
+    padding: 5px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+  }
+  
+  .gallery > div {
+    position: relative;
+    float: left;
+    padding: 5px;
+  }
+ 
+  
+  .gallery > div:hover {
+    z-index: 1;
+  }
+  
+  h1 {
+    margin: 40px 0;
+    font-size: 24px;
+    text-align: center;
+  }
+  div.bottomText
+  {
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+  }
+img.center{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 200px;
+    height: 170px;
+}
+  /* TABELA ZA RASPORED */
+table, th, td {
+    border: 1px solid black;
+}
+table.center,th,td{
+    border: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: transparent;
+  }
+
+.td{
+  background-color:red; 
+  color:white
+}
+.tdDarkGrey{
+  background-color:darkgrey;
+}
+.tdTransparent
+{
+  background-color: transparent;
+}
+.tdRight
+{
+    padding:0 15px;
+}

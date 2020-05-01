@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="Style.css">
+        
+    </head>
+    <body class = "bg">       
+      <div id="login">
+      <form name='form-login'>
+        <span class="fontawesome-user"></span>
+          <input type="text" id="user1" placeholder="Igrac 1" pattern="[A-Za-z0-9_]{3,15}" title="Mala ili velika slova,brojevi ukupno 3-15 karaktera" required>        
+          <span class="fontawesome-user"></span>
+          <input type="text" id="user2" placeholder="Igrac 2" pattern="[A-Za-z0-9_]{3,15}" title="Mala ili velika slova,brojevi ukupno 3-15 karaktera" required> 
+          <input type="submit" value="Zapocni igru" onclick="startSettingBoats()">
+    </body>
+    <script src="battlewarship-javascript.js"></script>   
+</html>

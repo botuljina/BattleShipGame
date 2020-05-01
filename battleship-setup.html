@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="Style.css">
+        <h1 class ="header">PRVI POSTAVLJA BRODOVE IGRAC</h1>
+        <h2 class ="headerName" id="playerName"></h2>
+    </head>
+
+    <body class ="bg" onload = "createTable()">
+    <div class="gallery cf">
+      <div>
+        <img src="battleship-assets/1.jpg" height="62" id="1.1" onclick="initializeSize(this)"/>
+        <div class="bottomText" id = "1">4</div>
+      </div>
+      <div>
+        <img src="battleship-assets/2.jpg" id="2.2" onclick="initializeSize(this)"/>
+        <div class="bottomText" id = "2">3</div>
+      </div>
+      <div>
+        <img src="battleship-assets/3.jpg" id="3.3" onclick="initializeSize(this)" />
+        <div class="bottomText" id = "3">2</div>
+      </div>
+      <div>
+        <img src="battleship-assets/4.jpg" id="4.4" onclick="initializeSize(this)" />
+        <div class="bottomText" id = "4">1</div>
+      </div>
+    </div>
+      <br><br><br><br><br><br>
+      <table id="tabela"></table> 
+      <br><br>
+      <img class="center" src="battleship-assets/uputstvo.png" id="uputstvo"  />  
+
+    </body>
+    <script src="battlewarship-javascript.js"></script>   
+</html>
